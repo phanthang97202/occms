@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "7kCkPfZLms47UZJFiMr3UlrrpS0Xq4KDnwt71/dRwYU=",
+  "Source": "MyTheme.OrchardCore",
+  "BasePath": "_content/MyTheme.OrchardCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyTheme.OrchardCore\\wwwroot",
+      "Source": "MyTheme.OrchardCore",
+      "ContentRoot": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\",
+      "BasePath": "_content/MyTheme.OrchardCore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OrchardCore\\startoccms\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{822AE4E8-36E7-4CAB-AAE0-FA26BB8D73A5}|..\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj|f:\\orchardcore\\mytheme.orchardcore\\views\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{822AE4E8-36E7-4CAB-AAE0-FA26BB8D73A5}|..\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj|f:\\orchardcore\\mytheme.orchardcore\\manifest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EB60E7-031D-49E5-8325-D4CD2EF2C03F}|startoccms.csproj|f:\\orchardcore\\startoccms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7EB60E7-031D-49E5-8325-D4CD2EF2C03F}|startoccms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{822AE4E8-36E7-4CAB-AAE0-FA26BB8D73A5}|..\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj|f:\\orchardcore\\mytheme.orchardcore\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{822AE4E8-36E7-4CAB-AAE0-FA26BB8D73A5}|..\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj|f:\\orchardcore\\mytheme.orchardcore\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{822AE4E8-36E7-4CAB-AAE0-FA26BB8D73A5}|..\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj|c:\\users\\phant\\.nuget\\packages\\orchardcore.module.targets\\1.8.2\\build\\package.build.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{822AE4E8-36E7-4CAB-AAE0-FA26BB8D73A5}|..\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj|f:\\orchardcore\\mytheme.orchardcore\\wwwroot\\css\\style.css||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7EB60E7-031D-49E5-8325-D4CD2EF2C03F}|startoccms.csproj|f:\\orchardcore\\startoccms\\startoccms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7EB60E7-031D-49E5-8325-D4CD2EF2C03F}|startoccms.csproj|solutionrelative:startoccms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2028676212:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.js",
+              "DocumentMoniker": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "..\\MyTheme.OrchardCore\\wwwroot\\js\\main.js",
+              "ToolTip": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "..\\MyTheme.OrchardCore\\wwwroot\\js\\main.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-13T15:00:00.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "style.css",
+              "DocumentMoniker": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "..\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "ToolTip": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "..\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-13T14:59:51.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "..\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "ToolTip": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "..\\MyTheme.OrchardCore\\wwwroot\\css\\style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-13T14:54:19.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Package.Build.props",
+              "DocumentMoniker": "C:\\Users\\phant\\.nuget\\packages\\orchardcore.module.targets\\1.8.2\\build\\Package.Build.props",
+              "ToolTip": "C:\\Users\\phant\\.nuget\\packages\\orchardcore.module.targets\\1.8.2\\build\\Package.Build.props",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-13T14:43:11.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Layout.cshtml",
+              "DocumentMoniker": "F:\\OrchardCore\\MyTheme.OrchardCore\\Views\\Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\MyTheme.OrchardCore\\Views\\Layout.cshtml",
+              "ToolTip": "F:\\OrchardCore\\MyTheme.OrchardCore\\Views\\Layout.cshtml",
+              "RelativeToolTip": "..\\MyTheme.OrchardCore\\Views\\Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T16:36:55.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manifest.cs",
+              "DocumentMoniker": "F:\\OrchardCore\\MyTheme.OrchardCore\\Manifest.cs",
+              "RelativeDocumentMoniker": "..\\MyTheme.OrchardCore\\Manifest.cs",
+              "ToolTip": "F:\\OrchardCore\\MyTheme.OrchardCore\\Manifest.cs",
+              "RelativeToolTip": "..\\MyTheme.OrchardCore\\Manifest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T16:24:59.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "startoccms.csproj",
+              "DocumentMoniker": "F:\\OrchardCore\\startoccms\\startoccms.csproj",
+              "RelativeDocumentMoniker": "startoccms.csproj",
+              "ToolTip": "F:\\OrchardCore\\startoccms\\startoccms.csproj",
+              "RelativeToolTip": "startoccms.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T16:05:34.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\OrchardCore\\startoccms\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\OrchardCore\\startoccms\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T15:37:32.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

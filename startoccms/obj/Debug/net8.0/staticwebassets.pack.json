@@ -1,0 +1,161 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\.placeholder",
+      "PackagePath": "staticwebassets\\.placeholder"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\0\\1\\7\\b\\b\\c\\f\\d\\4\\8\\8\\7\\017bbcfd4887.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\1\\5\\0\\0\\2\\2\\e\\e\\5\\a\\8\\8\\150022ee5a88.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\1\\7\\b\\6\\6\\e\\e\\2\\c\\b\\8\\0\\17b66ee2cb80.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\1\\7\\b\\6\\6\\e\\e\\2\\c\\b\\8\\0\\17b66ee2cb80.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\1\\7\\b\\6\\6\\e\\e\\2\\c\\b\\8\\0\\17b66ee2cb80.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\1\\7\\b\\6\\6\\e\\e\\2\\c\\b\\8\\0\\17b66ee2cb80.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\3\\e\\1\\3\\a\\5\\e\\0\\c\\f\\b\\5\\3e13a5e0cfb5.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\3\\e\\1\\3\\a\\5\\e\\0\\c\\f\\b\\5\\3e13a5e0cfb5.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\3\\e\\1\\3\\a\\5\\e\\0\\c\\f\\b\\5\\3e13a5e0cfb5.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\3\\e\\1\\3\\a\\5\\e\\0\\c\\f\\b\\5\\3e13a5e0cfb5.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\4\\2\\6\\5\\1\\7\\a\\d\\3\\0\\2\\5\\426517ad3025.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\4\\2\\6\\5\\1\\7\\a\\d\\3\\0\\2\\5\\426517ad3025.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\4\\2\\6\\5\\1\\7\\a\\d\\3\\0\\2\\5\\426517ad3025.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\4\\2\\6\\5\\1\\7\\a\\d\\3\\0\\2\\5\\426517ad3025.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\4\\e\\f\\d\\7\\3\\3\\6\\a\\5\\d\\d\\4efd7336a5dd.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\4\\e\\f\\d\\7\\3\\3\\6\\a\\5\\d\\d\\4efd7336a5dd.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\4\\e\\f\\d\\7\\3\\3\\6\\a\\5\\d\\d\\4efd7336a5dd.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\4\\e\\f\\d\\7\\3\\3\\6\\a\\5\\d\\d\\4efd7336a5dd.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\6\\9\\8\\3\\0\\0\\f\\b\\b\\a\\2\\5\\698300fbba25.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\7\\6\\4\\1\\6\\9\\b\\0\\1\\b\\4\\2\\764169b01b42.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\7\\6\\4\\1\\6\\9\\b\\0\\1\\b\\4\\2\\764169b01b42.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\7\\6\\4\\1\\6\\9\\b\\0\\1\\b\\4\\2\\764169b01b42.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\7\\6\\4\\1\\6\\9\\b\\0\\1\\b\\4\\2\\764169b01b42.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\8\\6\\7\\b\\4\\a\\3\\9\\2\\a\\5\\1\\867b4a392a51.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\9\\3\\a\\8\\3\\5\\f\\f\\d\\1\\4\\7\\93a835ffd147.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\9\\3\\a\\8\\3\\5\\f\\f\\d\\1\\4\\7\\93a835ffd147.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\9\\3\\a\\8\\3\\5\\f\\f\\d\\1\\4\\7\\93a835ffd147.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\9\\3\\a\\8\\3\\5\\f\\f\\d\\1\\4\\7\\93a835ffd147.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\a\\1\\c\\8\\e\\0\\c\\b\\8\\6\\7\\a\\a1c8e0cb867a.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\a\\1\\c\\8\\e\\0\\c\\b\\8\\6\\7\\a\\a1c8e0cb867a.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\a\\1\\c\\8\\e\\0\\c\\b\\8\\6\\7\\a\\a1c8e0cb867a.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\a\\1\\c\\8\\e\\0\\c\\b\\8\\6\\7\\a\\a1c8e0cb867a.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\a\\4\\5\\d\\6\\e\\6\\6\\5\\9\\a\\d\\a45d6e6659ad.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\b\\d\\3\\b\\a\\5\\5\\0\\1\\c\\d\\2\\bd3ba5501cd2.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\b\\d\\3\\b\\a\\5\\5\\0\\1\\c\\d\\2\\bd3ba5501cd2.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\b\\d\\3\\b\\a\\5\\5\\0\\1\\c\\d\\2\\bd3ba5501cd2.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\b\\d\\3\\b\\a\\5\\5\\0\\1\\c\\d\\2\\bd3ba5501cd2.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\c\\0\\4\\7\\9\\d\\e\\a\\f\\d\\2\\9\\c0479deafd29.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\0\\4\\7\\9\\d\\e\\a\\f\\d\\2\\9\\c0479deafd29.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\c\\0\\4\\7\\9\\d\\e\\a\\f\\d\\2\\9\\c0479deafd29.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\0\\4\\7\\9\\d\\e\\a\\f\\d\\2\\9\\c0479deafd29.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\c\\a\\8\\3\\e\\0\\f\\e\\8\\3\\1\\c\\ca83e0fe831c.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\a\\8\\3\\e\\0\\f\\e\\8\\3\\1\\c\\ca83e0fe831c.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\c\\a\\8\\3\\e\\0\\f\\e\\8\\3\\1\\c\\ca83e0fe831c.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\a\\8\\3\\e\\0\\f\\e\\8\\3\\1\\c\\ca83e0fe831c.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\c\\c\\2\\6\\9\\a\\d\\9\\0\\3\\3\\d\\cc269ad9033d.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\c\\2\\6\\9\\a\\d\\9\\0\\3\\3\\d\\cc269ad9033d.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\c\\c\\2\\6\\9\\a\\d\\9\\0\\3\\3\\d\\cc269ad9033d.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\c\\c\\2\\6\\9\\a\\d\\9\\0\\3\\3\\d\\cc269ad9033d.meta"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\e\\c\\3\\6\\c\\1\\0\\8\\e\\6\\0\\3\\ec36c108e603.jpg",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\e\\c\\3\\6\\c\\1\\0\\8\\e\\6\\0\\3\\ec36c108e603.jpg"
+    },
+    {
+      "Id": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\e\\c\\3\\6\\c\\1\\0\\8\\e\\6\\0\\3\\ec36c108e603.meta",
+      "PackagePath": "staticwebassets\\Default\\is-cache\\e\\c\\3\\6\\c\\1\\0\\8\\e\\6\\0\\3\\ec36c108e603.meta"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.startoccms.props",
+      "PackagePath": "build\\startoccms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.startoccms.props",
+      "PackagePath": "buildMultiTargeting\\startoccms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.startoccms.props",
+      "PackagePath": "buildTransitive\\startoccms.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.startoccms.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
