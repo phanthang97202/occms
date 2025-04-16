@@ -1,11 +1,14 @@
-F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.deps.json
-F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.dll
-F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.pdb
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.csproj.AssemblyReference.cache
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.GeneratedMSBuildEditorConfig.editorconfig
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.AssemblyInfoInputs.cache
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.AssemblyInfo.cs
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.csproj.CoreCompileInputs.cache
+F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.RazorAssemblyInfo.cache
+F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.RazorAssemblyInfo.cs
+F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.sourcelink.json
+F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.deps.json
+F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.dll
+F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.pdb
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\staticwebassets.build.json
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\staticwebassets.development.json
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\staticwebassets\msbuild.MyTheme.OrchardCore.Microsoft.AspNetCore.StaticWebAssets.props
@@ -18,6 +21,3 @@ F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.dll
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\refint\MyTheme.OrchardCore.dll
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.pdb
 F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\ref\MyTheme.OrchardCore.dll
-F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.RazorAssemblyInfo.cache
-F:\OrchardCore\MyTheme.OrchardCore\obj\Debug\net8.0\MyTheme.OrchardCore.RazorAssemblyInfo.cs
-F:\OrchardCore\MyTheme.OrchardCore\bin\Debug\net8.0\MyTheme.OrchardCore.staticwebassets.runtime.json

@@ -9563,6 +9563,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "OrchardCore.ContentManagement": "1.8.2",
+          "OrchardCore.Contents": "1.8.2",
           "OrchardCore.DisplayManagement": "1.8.2",
           "OrchardCore.ResourceManagement": "1.8.2",
           "OrchardCore.Theme.Targets": "1.8.2"
@@ -9572,6 +9573,25 @@
         },
         "runtime": {
           "bin/placeholder/MyTheme.OrchardCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Product.Module/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "OrchardCore.ContentManagement": "1.8.2",
+          "OrchardCore.ContentTypes.Abstractions": "1.8.2",
+          "OrchardCore.DisplayManagement": "1.8.2",
+          "OrchardCore.Module.Targets": "1.8.2"
+        },
+        "compile": {
+          "bin/placeholder/Product.Module.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Product.Module.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -26505,13 +26525,19 @@
       "type": "project",
       "path": "../MyTheme.OrchardCore/MyTheme.OrchardCore.csproj",
       "msbuildProject": "../MyTheme.OrchardCore/MyTheme.OrchardCore.csproj"
+    },
+    "Product.Module/1.0.0": {
+      "type": "project",
+      "path": "../Product.Module/Product.Module.csproj",
+      "msbuildProject": "../Product.Module/Product.Module.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "MyTheme.OrchardCore >= 1.0.0",
       "OrchardCore.Application.Cms.Targets >= 1.8.2",
-      "OrchardCore.Logging.NLog >= 1.8.2"
+      "OrchardCore.Logging.NLog >= 1.8.2",
+      "Product.Module >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -26549,6 +26575,9 @@
           "projectReferences": {
             "F:\\OrchardCore\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj": {
               "projectPath": "F:\\OrchardCore\\MyTheme.OrchardCore\\MyTheme.OrchardCore.csproj"
+            },
+            "F:\\OrchardCore\\Product.Module\\Product.Module.csproj": {
+              "projectPath": "F:\\OrchardCore\\Product.Module\\Product.Module.csproj"
             }
           }
         }
@@ -26596,7 +26625,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

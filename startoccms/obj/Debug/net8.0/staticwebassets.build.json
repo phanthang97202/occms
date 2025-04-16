@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uavF5ISLYH2iFEcSSTzhaucqR0FDPmPBrPwszwzhdKU=",
+  "Hash": "XZ3XsLKC22DB0fNPGAjKrDoug8CbhJWvc1lKpq1JlyE=",
   "Source": "startoccms",
   "BasePath": "_content/startoccms",
   "Mode": "Default",
@@ -16,16 +16,20 @@
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
       "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
+    {
+      "Identity": "F:\\OrchardCore\\Product.Module\\Product.Module.csproj",
+      "Version": 2,
+      "Source": "Product.Module",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],
   "DiscoveryPatterns": [
-    {
-      "Name": "MyTheme.OrchardCore\\wwwroot",
-      "Source": "MyTheme.OrchardCore",
-      "ContentRoot": "F:\\OrchardCore\\MyTheme.OrchardCore\\wwwroot\\",
-      "BasePath": "_content/MyTheme.OrchardCore",
-      "Pattern": "**"
-    },
     {
       "Name": "startoccms\\wwwroot",
       "Source": "startoccms",
@@ -167,6 +171,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Default\\is-cache\\1\\7\\b\\6\\6\\e\\e\\2\\c\\b\\8\\0\\17b66ee2cb80.meta"
+    },
+    {
+      "Identity": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\1\\9\\7\\e\\0\\d\\2\\9\\d\\9\\3\\8\\197e0d29d938.jpg",
+      "SourceId": "startoccms",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\OrchardCore\\startoccms\\wwwroot\\",
+      "BasePath": "_content/startoccms",
+      "RelativePath": "Default/is-cache/1/9/7/e/0/d/2/9/d/9/3/8/197e0d29d938.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Default\\is-cache\\1\\9\\7\\e\\0\\d\\2\\9\\d\\9\\3\\8\\197e0d29d938.jpg"
+    },
+    {
+      "Identity": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\1\\9\\7\\e\\0\\d\\2\\9\\d\\9\\3\\8\\197e0d29d938.meta",
+      "SourceId": "startoccms",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\OrchardCore\\startoccms\\wwwroot\\",
+      "BasePath": "_content/startoccms",
+      "RelativePath": "Default/is-cache/1/9/7/e/0/d/2/9/d/9/3/8/197e0d29d938.meta",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Default\\is-cache\\1\\9\\7\\e\\0\\d\\2\\9\\d\\9\\3\\8\\197e0d29d938.meta"
     },
     {
       "Identity": "F:\\OrchardCore\\startoccms\\wwwroot\\Default\\is-cache\\3\\e\\1\\3\\a\\5\\e\\0\\c\\f\\b\\5\\3e13a5e0cfb5.jpg",

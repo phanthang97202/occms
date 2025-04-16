@@ -1,0 +1,66 @@
+﻿@* @model dynamic
+
+@{
+    var contentItem = Model.ContentItem;
+    var title = contentItem.DisplayText;
+    var permalink = contentItem.Content?.Article?.Permalink?.Text;
+    var htmlBody = contentItem.Content?.Article?.HtmlBodyPart?.Html;
+    System.Diagnostics.Debugger.Break();
+} *@
+
+@* @using OrchardCore.ContentManagement
+@model dynamic
+
+@{
+    ContentItem contentItem = Model.ContentItem as ContentItem;
+
+    string title = contentItem?.DisplayText;
+    string permalink = contentItem?.Content?.Article?.Permalink?.Text?.ToString();
+    string htmlBody = contentItem?.Content?.Article?.HtmlBodyPart?.Html?.ToString();
+
+    System.Diagnostics.Debugger.Break();
+} *@
+
+@using OrchardCore.ContentManagement
+@model dynamic
+
+@{
+    ContentItem contentItem = Model.ContentItem as ContentItem;
+
+    // Title từ TitlePart
+    string title = contentItem?.Content?.TitlePart?.Title?.ToString();
+
+    // HTML content từ HtmlBodyPart
+    string htmlBody = contentItem?.Content?.HtmlBodyPart?.Html?.ToString();
+
+    // Slug từ AutoroutePart
+    string path = contentItem?.Content?.AutoroutePart?.Path?.ToString();
+
+    // Subtitle từ Article.TextField
+    string subtitle = contentItem?.Content?.Article?.Subtitle?.Text?.ToString();
+
+    // Ảnh từ Article.MediaField (lấy ảnh đầu tiên nếu có)
+    // string imagePath = contentItem?.Content?.Article?.Image?.Paths?.FirstOrDefault()?.ToString();
+
+    // Nếu muốn tạo URL đầy đủ cho ảnh:
+    // string imageUrl = !string.IsNullOrEmpty(imagePath) ? Url.ContentUrl("~/media/" + imagePath) : null;
+}
+
+
+<section class="article-page">
+     
+
+    <h1>@title</h1>
+
+    @if (!string.IsNullOrEmpty(subtitle))
+    {
+        <h3>@subtitle</h3>
+    }
+
+    <article>
+        @Html.Raw(htmlBody)
+    </article>
+
+    <p><strong>Path:</strong> /@path</p>
+</section>
+

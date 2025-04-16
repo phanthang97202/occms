@@ -456,4 +456,117 @@
       Add file MyTheme.OrchardCore.csproj vào project sln của root project 
    B4: 
       Rebuild and check theme đã hiển thị trong Theme chưa
+
+## Tự tạo customize theme
+   Dưới đây là bảng tổng hợp cách đặt tên file `.cshtml` cho các trường hợp phổ biến khi bạn muốn tùy chỉnh giao diện các `ContentItem` trong **OrchardCore** dựa trên **ContentType** của nó:
+
+   ## 🎯 **Cách đặt tên file .cshtml trong OrchardCore**
+
+   | **ContentType**     | **File Name**                | **Mô tả**                                                                 |
+   |---------------------|------------------------------|---------------------------------------------------------------------------|
+   | `Article`           | `Content-Article.cshtml`      | Tùy chỉnh giao diện cho `ContentType` là `Article`                      |
+   |                     | `Content__Article.cshtml`     | File thay thế nếu muốn sử dụng tên kiểu **kép** (double underscore)     |
+   | `Page`              | `Content-Page.cshtml`         | Tùy chỉnh giao diện cho `ContentType` là `Page`                         |
+   |                     | `Content__Page.cshtml`        | File thay thế cho `Content-Page.cshtml` nếu sử dụng double underscore   |
+   | `BlogPost`          | `Content-BlogPost.cshtml`     | Tùy chỉnh giao diện cho `ContentType` là `BlogPost`                     |
+   |                     | `Content__BlogPost.cshtml`    | File thay thế cho `Content-BlogPost.cshtml` nếu sử dụng double underscore |
+   | `About`             | `Content-About.cshtml`        | Tùy chỉnh giao diện cho `ContentType` là `About`                        |
+   |                     | `Content__About.cshtml`       | File thay thế cho `Content-About.cshtml` nếu sử dụng double underscore  |
+   | **Content khác**    | `Content-[ContentType].cshtml`| Cách đặt tên chung cho các `ContentType` tùy chỉnh khác                |
+
+   ## 🎯 **Cách OrchardCore Render Shape**
+
+   OrchardCore sẽ tìm các file `.cshtml` dựa trên quy tắc sau:
+
+   1. **ContentType** của `ContentItem` quyết định tên file cần tìm. Ví dụ: nếu `ContentType` là `Article`, OrchardCore sẽ tìm file `Content-Article.cshtml` hoặc `Content__Article.cshtml` trong thư mục `/Views/Content/` hoặc `/Views/Contents/`.
+
+   2. **Tên file shape** dựa trên tên `ContentType` của `ContentItem`. Cụ thể:
+      - Nếu `ContentType` là `Article`, thì **shape name** sẽ là `Content__Article`.
+      - Nếu `ContentType` là `Page`, thì **shape name** sẽ là `Content__Page`.
+
+   3. **Cấu trúc tên file**:
+      - Sử dụng dấu gạch ngang (`-`) hoặc dấu gạch dưới kép (`__`) để phân tách tên `ContentType`.
+
+   ---
+
+   ## 🎯 **Các trường hợp thường gặp**
+
+   ### 1. **Tùy chỉnh `ContentType` là `Article`**
+
+   - **File**: `Content-Article.cshtml` hoặc `Content__Article.cshtml`
+   - **Ví dụ**: `/Views/Content-Article.cshtml`
+
+   ### 2. **Tùy chỉnh `ContentType` là `Page`**
+
+   - **File**: `Content-Page.cshtml` hoặc `Content__Page.cshtml`
+   - **Ví dụ**: `/Views/Content-Page.cshtml`
+
+   ### 3. **Tùy chỉnh `ContentType` là `BlogPost`**
+
+   - **File**: `Content-BlogPost.cshtml` hoặc `Content__BlogPost.cshtml`
+   - **Ví dụ**: `/Views/Content-BlogPost.cshtml`
+
+   ### 4. **Tùy chỉnh `ContentType` là `About`**
+
+   - **File**: `Content-About.cshtml` hoặc `Content__About.cshtml`
+   - **Ví dụ**: `/Views/Content-About.cshtml`
+
+   ### 5. **Tùy chỉnh các `ContentType` khác**
+
+   - **File**: `Content-[ContentType].cshtml` hoặc `Content__[ContentType].cshtml`
+   - **Ví dụ**: `/Views/Content-[YourContentType].cshtml`
+
+   ---
+
+   ## 🎯 **Cách kiểm tra các Shape và File cần sử dụng**
+
+   1. **Bật Shape Tracing** trong admin của OrchardCore:
+      - Vào **Features** → **Shape Tracing** → **Enable**
+      - Sau khi bật, reload lại trang bạn đang xem.
+      - Click biểu tượng 👁 để xem những shape mà OrchardCore gọi.
+
+   2. **Xem log để biết tên shape** đang được gọi:
+      - Shape Tracing giúp bạn xác định đúng shape cần render và từ đó biết chính xác tên file `.cshtml` cần tạo để override.
+
+   ---
+
+   ## 📌 **Lưu ý thêm**
+
+   - Các file `.cshtml` này thường nằm trong thư mục **`/Views/Content/`** hoặc **`/Views/Contents/`** trong theme của bạn.
+   - Nếu bạn không thấy file `.cshtml` được gọi, hãy kiểm tra lại **ContentType** của `ContentItem` và đảm bảo bạn tạo file đúng tên.
    
+## Tạo Module trong OrchardCore
+   dotnet new ocmodulecms -n Product.Module
+
+## Deploy Orchard Core
+   B1. Config webconfig
+      <?xml version="1.0" encoding="utf-8"?>
+      <configuration>
+         <system.webServer>
+            <handlers>
+               <add name="aspNetCore" path="*" verb="*" 
+                  modules="AspNetCoreModuleV2" resourceType="Unspecified" />
+            </handlers>
+            <aspNetCore processPath="dotnet" 
+                        arguments="startoccms.dll" 
+                        stdoutLogEnabled="false" 
+                        stdoutLogFile=".\logs\stdout" 
+                        hostingModel="inprocess" />
+         </system.webServer>
+      </configuration>
+   B2: Tải dotnet hoisting về
+      https://stackoverflow.com/questions/58618031/how-to-run-orchard-core-with-iis => Phải tải dotnet-hosting-9.0.4-win.exe
+      https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-9.0.4-windows-hosting-bundle-installer
+   B3: Bật full permission 
+      Ở Edit permission thêm + allow full 
+         + IIS_IUSRS
+         + IUSR
+   B4: Application Pools setting thành:
+      Name 
+         <tên_website>
+      .NET CLR version
+         No Managed Code
+      Managed pipline mode
+         Integrated
+      Tick Start application pool immidiately
+      

@@ -8,19 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="Views\_ViewImport.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <RazorGenerate Remove="Views\_ViewImport.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
-  </ItemGroup>
+	  <PackageReference Include="OrchardCore.Contents" Version="1.8.2" /> 
+  </ItemGroup> 
 
   <ItemGroup>
-	<PackageReference Include="OrchardCore.ContentManagement" Version="1.8.2" />
-	<PackageReference Include="OrchardCore.DisplayManagement" Version="1.8.2" />
-	<PackageReference Include="OrchardCore.ResourceManagement" Version="1.8.2" />
-	<PackageReference Include="OrchardCore.Theme.Targets" Version="1.8.2" />
+    <PackageReference Include="OrchardCore.Theme.Targets" Version="1.8.2" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.8.2" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.8.2" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.8.2" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\images\" />
-  </ItemGroup>
-
 
 </Project>

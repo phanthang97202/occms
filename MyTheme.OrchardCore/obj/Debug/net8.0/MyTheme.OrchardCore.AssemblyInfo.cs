@@ -12,16 +12,18 @@ using System;
 using System.Reflection;
 
 [assembly: OrchardCore.Modules.Manifest.ModuleMarkerAttribute("MyTheme.OrchardCore", "Theme")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\MyTheme.OrchardCore\\Views\\Content-Article.cshtml|F:\\OrchardCore\\MyTheme.Orc" +
+    "hardCore\\Views\\Content-Article.cshtml")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\MyTheme.OrchardCore\\Views\\Content-Blog.cshtml|F:\\OrchardCore\\MyTheme.Orchar" +
+    "dCore\\Views\\Content-Blog.cshtml")]
 [assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\MyTheme.OrchardCore\\Views\\Layout.cshtml|F:\\OrchardCore\\MyTheme.OrchardCore\\" +
     "Views\\Layout.cshtml")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\MyTheme.OrchardCore\\wwwroot\\css\\style.css|F:\\OrchardCore\\MyTheme.OrchardCor" +
-    "e\\wwwroot\\css\\style.css")]
-[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\MyTheme.OrchardCore\\wwwroot\\js\\main.js|F:\\OrchardCore\\MyTheme.OrchardCore\\w" +
-    "wwroot\\js\\main.js")]
+[assembly: OrchardCore.Modules.Manifest.ModuleAssetAttribute("Areas\\MyTheme.OrchardCore\\Views\\_ViewImports.cshtml|F:\\OrchardCore\\MyTheme.Orchar" +
+    "dCore\\Views\\_ViewImports.cshtml")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyTheme.OrchardCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6252ea49273477cde024d3f40d09a3376151d1b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyTheme.OrchardCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyTheme.OrchardCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

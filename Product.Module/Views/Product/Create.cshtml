@@ -1,0 +1,27 @@
+﻿@model Product.Module.RQ_Model.ProductCreateModel
+
+@{
+    ViewData["Title"] = "Tạo mới sản phẩm";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Tên sản phẩm:</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>Giá:</label>
+        <input asp-for="Price" />
+    </div>
+    <div>
+        <label>Hình ảnh:</label>
+        <input asp-for="Image" />
+    </div>
+    <div>
+        <label>Mô tả:</label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+    <button type="submit">Lưu</button>
+</form>

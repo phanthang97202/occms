@@ -1,0 +1,14 @@
+﻿@model IEnumerable<OrchardCore.ContentManagement.ContentItem>
+
+<h1>Danh sách sản phẩm</h1>
+
+@foreach (var item in Model)
+{
+    var product = item.Content.ProductPart;
+    <div class="product">
+        <h2>@item.DisplayText</h2>
+        <p><strong>Price:</strong> @product.Price?.Text</p>
+        <p><strong>Description:</strong> @product.Description?.Text</p>
+        <img src="@product.Image?.Text" alt="@item.DisplayText" style="max-width: 300px" />
+    </div>
+}

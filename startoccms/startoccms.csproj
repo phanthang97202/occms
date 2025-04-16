@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MyTheme.OrchardCore\MyTheme.OrchardCore.csproj" />
+    <ProjectReference Include="..\Product.Module\Product.Module.csproj" />
   </ItemGroup>
 
 </Project>

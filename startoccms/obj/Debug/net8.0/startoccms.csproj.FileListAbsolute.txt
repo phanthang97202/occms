@@ -383,8 +383,8 @@ F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.GeneratedMSBuildEditorConf
 F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.AssemblyInfoInputs.cache
 F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.AssemblyInfo.cs
 F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.csproj.CoreCompileInputs.cache
-F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.MvcApplicationPartsAssemblyInfo.cs
 F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.MvcApplicationPartsAssemblyInfo.cache
+F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.sourcelink.json
 F:\OrchardCore\startoccms\obj\Debug\net8.0\staticwebassets.build.json
 F:\OrchardCore\startoccms\obj\Debug\net8.0\staticwebassets.development.json
 F:\OrchardCore\startoccms\obj\Debug\net8.0\staticwebassets\msbuild.startoccms.Microsoft.AspNetCore.StaticWebAssets.props
@@ -401,6 +401,9 @@ F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.genruntimeconfig.cache
 F:\OrchardCore\startoccms\obj\Debug\net8.0\ref\startoccms.dll
 F:\OrchardCore\startoccms\bin\Debug\net8.0\MyTheme.OrchardCore.dll
 F:\OrchardCore\startoccms\bin\Debug\net8.0\MyTheme.OrchardCore.pdb
+F:\OrchardCore\startoccms\obj\Debug\net8.0\startoccms.MvcApplicationPartsAssemblyInfo.cs
+F:\OrchardCore\startoccms\bin\Debug\net8.0\Product.Module.dll
+F:\OrchardCore\startoccms\bin\Debug\net8.0\Product.Module.pdb
 F:\OrchardCore\startoccms\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 F:\OrchardCore\startoccms\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 F:\OrchardCore\startoccms\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
@@ -416,4 +419,3 @@ F:\OrchardCore\startoccms\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawin
 F:\OrchardCore\startoccms\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 F:\OrchardCore\startoccms\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 F:\OrchardCore\startoccms\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-F:\OrchardCore\startoccms\bin\Debug\net8.0\MyTheme.OrchardCore.staticwebassets.runtime.json
